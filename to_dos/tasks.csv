@@ -1,0 +1,11 @@
+task,index,status
+Lavar la ropa,1,false
+Hacer la tarea,2,false
+Preparar la comida,3,false
+Limpiar la casa,4,false
+Ordenar pizza,5,false
+Sacar al perro,6,false
+Ir al gimnasio,7,false
+Lavar el carro,8,false
+Hablarle a la abuela,9,false
+Comprar cervezas,10,false
