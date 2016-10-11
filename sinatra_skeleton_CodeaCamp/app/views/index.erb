@@ -1,0 +1,47 @@
+  <h1>Bienvenido a Sinatra!</h1>
+  <p>Este es un esqueleto de sinatra que armamos para ti</p>
+
+  
+<form action="/cool_url" method="get">
+  First name:<br><br>
+  <input type="text" name="firstname">
+  <br>
+  <input type="submit" value="Submit">
+  <br><br>
+  Biography:<br><br>
+  <textarea name="biography"></textarea>
+  <br><br>
+  Gender:<br><br>
+  <input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+  <br><br>
+  Vehicle:<br><br>
+  <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+  <input type="checkbox" name="vehicle" value="Car"> I have a car<br><br>
+  Country of Residence:<br><br>
+  <select name="pais">
+    <option value="Mexico">Mexico</option>
+    <option value="Estados Unidos">Estados Unidos</option>
+    <option value="Canada">Canada</option>
+    <option value="Otro">Otro</option>
+  </select>
+</form>
+
+<form action="/cool_url" method="post">
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br><br>
+  Post Title:<br>
+  <input type="text" name="post[title]">
+  <br><br>
+  Post Price:<br>
+  <input type="text" name="post[price]">
+  <br><br>
+  <textarea name="post[description]"></textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+  
+  
+  
+</form>
