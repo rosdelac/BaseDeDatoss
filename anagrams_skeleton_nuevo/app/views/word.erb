@@ -1,0 +1,12 @@
+<h1>Find Anagrams!</h1>
+
+<% if @new_word %>
+  <p>Estos son anagramas para '<%= @new_word %>':</p>
+  <p><%= @resp %></p>
+<% end %>
+
+
+<form action="/new_word" method="post">
+  Escribe tu palabra:<br>
+  <input type="text" name="user_word"><br>
+</form>
